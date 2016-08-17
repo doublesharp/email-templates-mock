@@ -1,0 +1,40 @@
+{
+  "name": "email-templates-mock",
+  "version": "0.0.1",
+  "description": "Mock email-templates module for unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover _mocha && open coverage/lcov-report/index.html",
+    "lint": "./node_modules/jshint/bin/jshint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doublesharp/email-templates-mock.git"
+  },
+  "keywords": [
+    "email-templates",
+    "mock",
+    "test",
+    "mocha",
+    "render",
+    "template"
+  ],
+  "author": "Justin Silver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doublesharp/email-templates-mock/issues"
+  },
+  "homepage": "https://github.com/doublesharp/email-templates-mock#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "email-templates": "^2.4.1"
+  },
+  "devDependencies": {
+    "handlebars": "^4.0.5",
+    "istanbul": "^0.4.4",
+    "jshint": "^2.9.2",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  }
+}
