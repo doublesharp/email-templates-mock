@@ -1,4 +1,8 @@
 # email-templates-mock
+
+[![email-templates-mock](https://img.shields.io/npm/v/email-templates-mock.svg)](https://www.npmjs.com/package/email-templates-mock)
+[![Build Status](https://jenkins.doublesharp.com/buildStatus/icon?job=email-templates-mock)](https://jenkins.doublesharp.com/job/nodemailer-mock/)
+
 Mocked email-templates module for testing
 
 # install
