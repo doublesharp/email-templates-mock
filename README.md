@@ -106,7 +106,7 @@ describe('Tests that render an email', function(){
      should(email).not.be.exactly(null)
      email.should.contain(/this string/)
      done()
-    }
+    })
   })
   
   it('should fail to render an email using email-templates-mock', function(done){
@@ -114,7 +114,7 @@ describe('Tests that render an email', function(){
     template.render(inputs, function(err, email){
      should(err).not.be.exactly(null)
      done()
-    }
+    })
   })
 })
 ```
