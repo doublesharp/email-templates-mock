@@ -1,8 +1,9 @@
 # email-templates-mock
 
 [![email-templates-mock](https://img.shields.io/npm/v/email-templates-mock.svg)](https://www.npmjs.com/package/email-templates-mock)
-[![Build Status](https://jenkins.doublesharp.com/buildStatus/icon?job=email-templates-mock)](https://jenkins.doublesharp.com/job/email-templates-mock/)
+[![Build Status](https://img.shields.io/jenkins/s/https/jenkins.doublesharp.com/email-templates-mock.svg)](https://jenkins.doublesharp.com/job/email-templates-mock/)
 [![Code Coverage](https://jenkins.doublesharp.com/userContent/badges/coverage/email-templates-mock.svg)](https://jenkins.doublesharp.com/job/email-templates-mock/)
+![Downloads](https://img.shields.io/npm/dt/email-templates-mock.svg)
 
 Mocked `email-templates` module for testing
 
