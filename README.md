@@ -109,9 +109,9 @@ describe('Tests that render an email', function(){
   
   it('should render using email-templates-mock', function(done){
     template.render(inputs, function(err, email){
-     should(err).be.exactly(null)
-     should(email).not.be.exactly(null)
-     email.should.contain(/this string/)
+     should(err).equal(null)
+     should(email).not.equal(null)
+     email.should.match(/this string/)
      done()
     })
   })
@@ -119,9 +119,10 @@ describe('Tests that render an email', function(){
   it('should fail to render using email-templates-mock', function(done){
     emailtemplatesMock.mock.shouldFailOnce()
     template.render(inputs, function(err, email){
-     should(err).not.be.exactly(null)
+     should(err).not.equal(null)
      done()
     })
   })
+  
 })
 ```
