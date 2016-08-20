@@ -1,8 +1,8 @@
 # email-templates-mock
 
 [![email-templates-mock](https://img.shields.io/npm/v/email-templates-mock.svg)](https://www.npmjs.com/package/email-templates-mock)
-[![Build Status](https://img.shields.io/jenkins/s/https/jenkins.doublesharp.com/email-templates-mock.svg)](https://jenkins.doublesharp.com/job/email-templates-mock/)
-[![Code Coverage](https://jenkins.doublesharp.com/userContent/badges/coverage/email-templates-mock.svg)](https://jenkins.doublesharp.com/job/email-templates-mock/)
+![Build Status](https://jenkins.doublesharp.com/badges/build/email-templates-mock.svg)
+![Code Coverage](https://jenkins.doublesharp.com/badges/coverage/email-templates-mock.svg)
 [![Code Climate](https://codeclimate.com/github/doublesharp/email-templates-mock/badges/gpa.svg)](https://codeclimate.com/github/doublesharp/email-templates-mock)
 [![Issue Count](https://codeclimate.com/github/doublesharp/email-templates-mock/badges/issue_count.svg)](https://codeclimate.com/github/doublesharp/email-templates-mock)
 ![Dependency Status](https://david-dm.org/doublesharp/email-templates-mock.svg)
@@ -123,6 +123,6 @@ describe('Tests that render an email', function(){
      done()
     })
   })
-  
+
 })
 ```
