@@ -10,7 +10,9 @@
     "coverage-badge": "./node_modules/.bin/istanbul-cobertura-badger -e 95 -g 85 -b \"${PWD##*/}\"",
     "lint": "./node_modules/.bin/eslint .",
     "validate": "./node_modules/.bin/module-validator",
-    "depcheck": "./node_modules/.bin/dependency-checker"
+    "sloc": "./node_modules/.bin/sloc *.js lib test",
+    "sloc-app": "./node_modules/.bin/sloc *.js lib",
+    "sloc-test": "./node_modules/.bin/sloc test"
   },
   "repository": {
     "type": "git",
