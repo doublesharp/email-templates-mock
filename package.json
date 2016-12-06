@@ -1,6 +1,6 @@
 {
   "name": "email-templates-mock",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Mock email-templates module for unit testing",
   "main": "index.js",
   "scripts": {
@@ -31,17 +31,17 @@
   },
   "homepage": "https://github.com/doublesharp/email-templates-mock#readme",
   "dependencies": {
-    "debug": "^2.3.2",
+    "debug": "^2.3.3",
     "email-templates": "^2.5.4",
     "handlebars": "^4.0.6"
   },
   "devDependencies": {
-    "developer-tools": "0.0.4",
+    "developer-tools": "0.0.7",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-mocha": "^4.7.0",
-    "eslint-plugin-react": "^6.7.1",
+    "eslint-plugin-react": "^6.8.0",
     "handlebars": "^4.0.6",
     "should": "^11.1.1"
   },
