@@ -1,6 +1,6 @@
 {
   "name": "email-templates-mock",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Mock email-templates module for unit testing",
   "main": "index.js",
   "scripts": {
@@ -42,9 +42,9 @@
   },
   "devDependencies": {
     "depcheck": "^0.6.7",
-    "eslint": "^4.0.0",
+    "eslint": "^4.1.1",
     "eslint-config-google": "^0.8.0",
-    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-mocha": "^4.11.0",
     "handlebars": "^4.0.10",
     "istanbul": "^0.4.5",
     "istanbul-cobertura-badger": "https://github.com/doublesharp/istanbul-cobertura-badger.git",
