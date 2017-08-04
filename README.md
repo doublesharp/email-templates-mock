@@ -17,6 +17,10 @@ Mocked `email-templates` module for testing
 npm install email-templates-mock --save-dev
 ```
 
+```
+yarn add -D email-templates-mock
+```
+
 # mock api
 There are some special methods available on the mocked module to help with testing.
 
