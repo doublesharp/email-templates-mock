@@ -5,8 +5,8 @@
 ![Code Coverage](https://jenkins.doublesharp.com/badges/coverage/email-templates-mock.svg)
 [![Code Climate](https://codeclimate.com/github/doublesharp/email-templates-mock/badges/gpa.svg)](https://codeclimate.com/github/doublesharp/email-templates-mock)
 [![Issue Count](https://codeclimate.com/github/doublesharp/email-templates-mock/badges/issue_count.svg)](https://codeclimate.com/github/doublesharp/email-templates-mock)
-![Dependency Status](https://david-dm.org/doublesharp/email-templates-mock.svg)
-![Dev Dependency Status](https://david-dm.org/doublesharp/email-templates-mock/dev-status.svg)
+[![Dependency Status](https://david-dm.org/doublesharp/email-templates-mock.svg)](https://david-dm.org/doublesharp/email-templates-mock)
+[![Dev Dependency Status](https://david-dm.org/doublesharp/email-templates-mock/dev-status.svg)](https://david-dm.org/doublesharp/email-templates-mock?type=dev)
 ![Downloads](https://img.shields.io/npm/dt/email-templates-mock.svg)
 
 Mocked `email-templates` module for testing
