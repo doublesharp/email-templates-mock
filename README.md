@@ -9,7 +9,7 @@
 [![Dev Dependency Status](https://david-dm.org/doublesharp/email-templates-mock/dev-status.svg)](https://david-dm.org/doublesharp/email-templates-mock?type=dev)
 ![Downloads](https://img.shields.io/npm/dt/email-templates-mock.svg)
 
-Mocked `email-templates` module for testing
+Mocked `email-templates@2.x` module for testing
 
 # install
 
